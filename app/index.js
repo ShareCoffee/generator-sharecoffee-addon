@@ -54,6 +54,7 @@ SharecoffeeAddonGenerator.prototype.app = function app() {
   this.mkdir('src');
   this.mkdir('dist');
   this.mkdir('docs');
+  this.mkdir('docs/assets');
   this.mkdir('license');
   this.mkdir('nuget');
   this.mkdir('test');
@@ -63,8 +64,10 @@ SharecoffeeAddonGenerator.prototype.app = function app() {
   this.copy('_README.md', 'README.md');
   this.copy('_readme.txt', 'readme.txt');
   this.copy('_Gruntfile.coffee', 'Gruntfile.coffee');
-  this.copy('_ShareCoffee.AddOn.tests.coffee', 'test/' + this.addOnName+ '.tests.coffee')
-  this.copy('_ShareCoffee.AddOn.coffee', 'src/'+ this.addOnName+'.coffee')
+  this.copy('_ShareCoffee.AddOn.tests.coffee', 'test/' + this.addOnName+ '.tests.coffee');
+  this.copy('_ShareCoffee.AddOn.coffee', 'src/'+ this.addOnName+'.coffee');
+  this.copy('_ShareCoffee.AddOn.license.coffee', 'license/'+this.addOnName + '.license.coffee');
+  this.copy('_sharecoffee.css', 'docs/assets/sharecoffee.css');
 };
 
 SharecoffeeAddonGenerator.prototype.projectfiles = function projectfiles() {
