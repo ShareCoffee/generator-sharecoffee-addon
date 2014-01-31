@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id><%= addOnName %></id>
+    <version>0.0.0</version>
+    <authors><%= authorName%></authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><%= addOnDescription%></description>
+      <dependencies>
+    <group>
+      <dependency id="ShareCoffee" />
+    </group>
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="dist\**.*" target="content\Scripts\<%= addOnName %>" />
+  </files>
+</package>
