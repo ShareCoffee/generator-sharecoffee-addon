@@ -1,0 +1,1 @@
+This readme will be shown in VS when installing the NuGet Package

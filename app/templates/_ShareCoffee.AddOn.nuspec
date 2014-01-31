@@ -13,6 +13,7 @@
   </dependencies>
   </metadata>
   <files>
+    <file src="readme.txt" target="" />
     <file src="dist\**.*" target="content\Scripts\<%= addOnName %>" />
   </files>
 </package>

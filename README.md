@@ -1,5 +1,4 @@
-# generator-sharecoffee-addon [![Build Status](https://secure.travis-ci.org/ThorstenHans/generator-sharecoffee-addon.png?branch=master)](https://travis-ci.org/ThorstenHans/generator-sharecoffee-addon)
-
+# generator-sharecoffee-addon
 A generator for [Yeoman](http://yeoman.io).
 
 
