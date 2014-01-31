@@ -1,9 +1,11 @@
 {
   "name": "generator-sharecoffee-addon",
-  "version": "0.0.0",
-  "description": "A generator for Yeoman",
+  "version": "0.0.1",
+  "description": "A yeoman generator for creating new ShareCoffee AddOns",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "ShareCoffee",
+    "AddOns"
   ],
   "homepage": "https://github.com/ThorstenHans/generator-sharecoffee-addon",
   "bugs": "https://github.com/ThorstenHans/generator-sharecoffee-addon/issues",
